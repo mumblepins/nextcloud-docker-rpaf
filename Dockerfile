@@ -7,4 +7,5 @@ RUN set -ex; \
     a2enmod rpaf
 
 COPY rpaf.conf /etc/apache2/mods-available/rpaf.conf
+COPY remoteip.conf /etc/apache2/conf-enabled/remoteip.conf
 
